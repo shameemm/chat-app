@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-%8qxgv!ll=^^vi7fm1qn!(b(yhdoicqtdhu5*!b90iai&f5$80
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-chat.on.dockerize.io'
+]
 
 
 # Application definition
